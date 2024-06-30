@@ -1,6 +1,11 @@
 import styles from './Cadastro.module.css'
 import '../styles.global.css'
+import FormGroup from '@mui/material/FormGroup'
 
+import Checkbox from '@mui/material/Checkbox'
+
+
+import FormControlLabel from '@mui/material/FormControlLabel'
 
 export function Cadastro() {
 
@@ -32,15 +37,17 @@ export function Cadastro() {
 
             <div className={styles.servEpriv}>
             <input type="checkbox" id="termos" name="termos" />
-            <label id="termos" >Eu aceito os termos de serviços e politica de privacidade</label> 
+            <label id="termos" >Lembrar de mim</label> 
             </div>
+            
+
 
             
             <button className={styles.btnCadastro }type="submit"> Cadastrar</button>
     
     
             <hr />
-            <h6> Já tem uma conta?                    <a className={styles.Log} href="">Login</a>
+            <h6> Já tem uma conta?<a className={styles.Log} href="">Login</a>
             </h6>       
 
     

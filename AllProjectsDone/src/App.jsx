@@ -12,12 +12,12 @@ function App() {
     
     <>
     {/* <BrowserRouter> */}
-
          <Navbar />
 
      {/* <Routes> */}
      <Home/>
      {/* <Cadastro/> */}
+
      {/* <ProjetoEdit/> */}
 
      {/* <Login/> */}
